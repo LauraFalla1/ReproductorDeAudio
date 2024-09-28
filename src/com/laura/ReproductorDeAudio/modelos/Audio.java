@@ -38,4 +38,12 @@ public class Audio {
     public void reproducir() {
         this.totalDeReproducciones++;
     }
+
+    public int getClasificacion() {
+        return clasificacion;
+    }
+
+    public void setClasificacion(int clasificacion) {
+        this.clasificacion = clasificacion;
+    }
 }
